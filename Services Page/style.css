@@ -111,7 +111,7 @@ header nav .navigat ul a .li7 {
 
 .sect1 {
   width: 100vw;
-  height: 85vh;
+  height: 67vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -152,14 +152,15 @@ header nav .navigat ul a .li7 {
   align-items: center;
 }
 .sect1 .sect1_one .sect1_one_right .sect1_one_right_text .sect1_one_right_text_high p {
-  width: 32vw;
+  width: 36vw;
   font-size: 4.875rem;
   font-weight: 600;
   font-family: "Roboto Flex", monospace;
   color: rgb(249, 239, 236);
+  text-transform: uppercase;
 }
 .sect1 .sect1_one .sect1_one_right .sect1_one_right_text .sect1_one_right_text_high .sect1_one_right_text_high_one {
-  width: 13vw;
+  width: 15vw;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -169,6 +170,7 @@ header nav .navigat ul a .li7 {
   color: rgb(206, 125, 99);
   font-family: "Roboto Flex", monospace;
   font-weight: 500;
+  text-transform: uppercase;
 }
 .sect1 .sect1_one .sect1_one_right .sect1_one_right_text .sect1_one_right_text_high_two {
   width: 54vw;
@@ -194,6 +196,7 @@ header nav .navigat ul a .li7 {
   color: rgb(103, 102, 101);
 }
 .sect1 .sect1_one .sect1_one_right .sect1_one_right_text_high_tree p {
+  line-height: 150%;
   width: 45vw;
 }
 .sect1 .sect1_one .sect1_one_right .sect1_one_right_text_high_four {
@@ -219,114 +222,81 @@ header nav .navigat ul a .li7 {
   font-family: "Roboto Mono", monospace;
   color: rgb(103, 102, 101);
   text-transform: uppercase;
+  white-space: nowrap;
 }
 .sect1 .sect1_one .sect1_one_right .sect1_one_right_text_high_four ul li::marker {
   color: rgb(206, 125, 99);
 }
-.sect1 .sect1_one .sect1_two {
-  width: 29vw;
+.sect1 .sect1_one .sect1_right {
+  width: 30vw;
   height: 58vh;
-  background-color: rgb(31, 31, 31);
-  border-radius: 14px;
-}
-.sect1 .sect1_one .sect1_two .sect1_two_text_wh {
-  width: 100vw;
-  height: 12vh;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
   display: flex;
+  flex-direction: column;
+  justify-content: end;
   align-items: center;
-  justify-content: center;
 }
-.sect1 .sect1_one .sect1_two .sect1_two_text_wh .sect1_two_text {
+.sect1 .sect1_one .sect1_right .sect1_visual_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sect1 .sect1_one .sect1_right .sect1_right_bottom {
+  position: relative;
   width: 26vw;
+  height: 10vh;
   display: flex;
-  flex-direction: column;
-  gap: 0.5vw;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.sect1 .sect1_one .sect1_two .sect1_two_text_wh .sect1_two_text .sect1_two_text_one {
-  font-size: 1.5rem;
-  font-weight: 500;
-  font-family: "Roboto Flex", monospace;
+.sect1 .sect1_one .sect1_right .sect1_right_bottom .sect1_view_blog {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.6vw;
+  cursor: pointer;
+}
+.sect1 .sect1_one .sect1_right .sect1_right_bottom .sect1_view_blog img {
+  width: 2.8vw;
+  height: 2.8vw;
+}
+.sect1 .sect1_one .sect1_right .sect1_right_bottom .sect1_view_blog p {
+  font-size: 1.125rem;
   color: rgb(249, 239, 236);
-  text-transform: uppercase;
-}
-.sect1 .sect1_one .sect1_two .sect1_two_text_wh .sect1_two_text .sect1_two_text_two {
-  font-size: 1.25rem;
-  font-weight: 400;
-  font-family: "Roboto Flex", monospace;
-  color: rgb(179, 179, 178);
-}
-.sect1 .sect1_tree {
-  width: 100vw;
-  height: 19vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.sect1 .sect1_tree .sect1_tree_all {
-  width: 94vw;
-  height: 18vh;
-  border: 2px solid rgb(31, 31, 31);
-  border-radius: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.sect1 .sect1_tree .sect1_tree_all .sect1_tree_all_wh {
-  width: 92vw;
-  height: 14vh;
-  border-radius: 14px;
-  display: flex;
-  flex-direction: row;
-  gap: 1vw;
-}
-.sect1 .sect1_tree .sect1_tree_all .sect1_tree_all_wh .sect1_tree_one {
-  width: 15vw;
-  height: 13.8vh;
-  border-radius: 14px;
-  background-color: rgb(26, 26, 26);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.sect1 .sect1_tree .sect1_tree_all .sect1_tree_all_wh .sect1_tree_one .sect1_tree_one_text_1 {
-  font-size: 1.25rem;
   font-weight: 500;
   font-family: "Roboto Mono", monospace;
-  color: rgb(179, 179, 178);
   text-transform: uppercase;
+  white-space: nowrap;
 }
-.sect1 .sect1_tree .sect1_tree_all .sect1_tree_all_wh .sect1_tree_one .sect1_tree_one_text_2 {
-  font-size: 3.75rem;
-  font-weight: 600;
-  font-family: "Roboto Flex", monospace;
-  color: rgb(218, 158, 139);
-  text-transform: uppercase;
-}
-.sect1 .sect1_tree .sect1_tree_all .sect1_tree_all_wh .sect1_tree_two {
-  width: 15vw;
-  height: 13.8vh;
-  border-radius: 14px;
-  background-color: rgb(26, 26, 26);
+.sect1 .sect1_one .sect1_right .sect1_right_bottom .sect1_badge {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  height: 4.8vh;
+  padding: 0 0.8vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  flex-direction: row;
-  gap: 0.5vw;
 }
-.sect1 .sect1_tree .sect1_tree_all .sect1_tree_all_wh .sect1_tree_two .sect1_tree_one_text_1 {
-  font-size: 1.25rem;
+.sect1 .sect1_one .sect1_right .sect1_right_bottom .sect1_badge p {
+  font-size: 1.125rem;
+  color: rgb(249, 239, 236);
   font-weight: 500;
   font-family: "Roboto Mono", monospace;
-  color: rgb(179, 179, 178);
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .sect2 {
   width: 100vw;
-  height: 80vh;
+  height: 195vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -335,7 +305,7 @@ header nav .navigat ul a .li7 {
 }
 .sect2 .sect2_all {
   width: 94vw;
-  height: 62vh;
+  height: 187vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -343,75 +313,244 @@ header nav .navigat ul a .li7 {
   border: 2px solid rgb(31, 31, 31);
   border-radius: 24px;
 }
-.sect2 .sect2_all .sect2_text_one {
-  width: 17vw;
+.sect2 .sect2_all .sect2_header {
+  width: 90vw;
+  height: 14vh;
   background-color: rgb(26, 26, 26);
-  width: 92vw;
-  height: 15vh;
+  border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 16px;
 }
-.sect2 .sect2_all .sect2_text_one p {
-  width: 88vw;
+.sect2 .sect2_all .sect2_header .sect2_header_wh {
+  width: 85vw;
+  height: 14vh;
+  display: flex;
+  align-items: center;
+}
+.sect2 .sect2_all .sect2_header .sect2_header_wh .sect2_header_text {
+  display: flex;
+  align-items: center;
+}
+.sect2 .sect2_all .sect2_header .sect2_header_wh .sect2_header_text p {
   font-size: 3rem;
   color: rgb(249, 239, 236);
   font-weight: 600;
   font-family: "Roboto Flex", monospace;
+  line-height: 100%;
   text-transform: uppercase;
 }
-.sect2 .sect2_all .sect2_card {
-  width: 92vw;
+.sect2 .sect2_all .sect2_rows_all {
+  width: 90vw;
+  height: 165vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row {
+  width: 90vw;
+  height: 39vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
-.sect2 .sect2_all .sect2_card .sect2_card_all {
-  background-color: rgb(26, 26, 26);
-  width: 22vw;
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_left {
+  width: 44vw;
   height: 39vh;
+  background-color: rgb(26, 26, 26);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_left .sect2_card_left_wh {
+  width: 38vw;
+  height: 23vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_left .sect2_card_left_wh .sect2_card_left_top {
+  width: 38vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_left .sect2_card_left_wh .sect2_card_left_top .sect2_card_title_block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.6vw;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_left .sect2_card_left_wh .sect2_card_left_top .sect2_card_title_block img {
+  width: 2.8vw;
+  height: 2.8vw;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_left .sect2_card_left_wh .sect2_card_left_top .sect2_card_title_block p {
+  font-size: 1.5rem;
+  color: rgb(249, 239, 236);
+  font-weight: 500;
+  font-family: "Roboto Flex", monospace;
+  text-transform: uppercase;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_left .sect2_card_left_wh .sect2_card_left_top .sect2_card_btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.4vw;
+  cursor: pointer;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_left .sect2_card_left_wh .sect2_card_left_top .sect2_card_btn p {
+  font-size: 1.125rem;
+  color: rgb(179, 179, 178);
+  font-weight: 500;
+  font-family: "Roboto Mono", monospace;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_left .sect2_card_left_wh .sect2_card_left_text {
+  width: 38vw;
   display: flex;
   align-items: center;
-  justify-content: center;
-  border-radius: 16px;
-  flex-direction: column;
 }
-.sect2 .sect2_all .sect2_card .sect2_card_all .sect2_card_wh {
-  width: 18vw;
-  height: 31vh;
-  display: grid;
-  grid-template-rows: 10vh 15vh;
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_left .sect2_card_left_wh .sect2_card_left_text p {
+  font-size: 1.125rem;
+  color: rgb(179, 179, 178);
+  font-weight: 400;
+  font-family: "Roboto Flex", monospace;
+  line-height: 150%;
 }
-.sect2 .sect2_all .sect2_card .sect2_card_all .sect2_card_wh .sect2_card_text_one {
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_left .sect2_card_left_wh .sect2_card_left_price {
+  width: 38vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_left .sect2_card_left_wh .sect2_card_left_price p {
   font-size: 1.875rem;
   color: rgb(249, 239, 236);
   font-weight: 500;
   font-family: "Roboto Flex", monospace;
   text-transform: uppercase;
-  line-height: 150%;
 }
-.sect2 .sect2_all .sect2_card .sect2_card_all .sect2_card_wh .sect2_card_text_two {
-  font-size: 1.25rem;
-  color: rgb(179, 179, 178);
-  font-weight: 400;
-  font-family: "Roboto Flex", monospace;
-  line-height: 150%;
-}
-.sect2 .sect2_all .sect2_card .sect2_card_all .sect2_card_wh .sect2_card_block {
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_right {
+  width: 44vw;
+  height: 39vh;
+  background-color: rgb(26, 26, 26);
+  border-radius: 16px;
   display: flex;
-  height: 7vh;
+  justify-content: center;
+  align-items: center;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_right .sect2_card_right_wh {
+  width: 38vw;
+  height: 31vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_right .sect2_card_right_wh .sect2_card_right_top {
+  width: 38vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_right .sect2_card_right_wh .sect2_card_right_top p {
+  font-size: 1.25rem;
+  color: rgb(249, 239, 236);
+  font-weight: 500;
+  font-family: "Roboto Flex", monospace;
+  text-transform: uppercase;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_right .sect2_card_right_wh .sect2_card_right_top .sect2_card_right_btn {
+  display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: start;
-  gap: 0.5vw;
+  gap: 0.4vw;
+  cursor: pointer;
 }
-.sect2 .sect2_all .sect2_card .sect2_card_all .sect2_card_wh .sect2_card_block p {
-  font-size: 1.25rem;
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_right .sect2_card_right_wh .sect2_card_right_top .sect2_card_right_btn p {
+  font-size: 1.125rem;
   color: rgb(179, 179, 178);
-  font-weight: 400;
-  font-family: "Roboto Flex", monospace;
+  font-weight: 500;
+  font-family: "Roboto Mono", monospace;
   line-height: 150%;
+  text-transform: uppercase;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_right .sect2_card_right_wh .sect2_projects_row {
+  width: 38vw;
+  height: 23vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_right .sect2_card_right_wh .sect2_projects_row .sect2_project_item {
+  width: 18.2vw;
+  height: 23vh;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_right .sect2_card_right_wh .sect2_projects_row .sect2_project_item .sect2_project_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_right .sect2_card_right_wh .sect2_projects_row .sect2_project_item .sect2_project_item_wh {
+  position: relative;
+  width: 16vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_right .sect2_card_right_wh .sect2_projects_row .sect2_project_item .sect2_project_item_wh .sect2_project_pill {
+  width: 10.5vw;
+  height: 4.5vh;
+  background-color: transparent;
+  border-radius: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4vw;
+  cursor: pointer;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_right .sect2_card_right_wh .sect2_projects_row .sect2_project_item .sect2_project_item_wh .sect2_project_pill .sect2_pill_circle {
+  width: 1.8vw;
+  height: 1.8vw;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_right .sect2_card_right_wh .sect2_projects_row .sect2_project_item .sect2_project_item_wh .sect2_project_pill .sect2_pill_circle img {
+  width: 0.9vw;
+  height: 0.9vw;
+}
+.sect2 .sect2_all .sect2_rows_all .sect2_row .sect2_card_right .sect2_card_right_wh .sect2_projects_row .sect2_project_item .sect2_project_item_wh .sect2_project_pill p {
+  font-size: 1rem;
+  color: rgb(249, 239, 236);
+  font-weight: 500;
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .sect3 {
@@ -425,165 +564,34 @@ header nav .navigat ul a .li7 {
 }
 .sect3 .sect3_all {
   width: 94vw;
-  height: 100vh;
+  height: 94vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  border: 2px solid rgb(31, 31, 31);
-  border-radius: 24px;
 }
-.sect3 .sect3_all .sect3_text {
-  width: 91vw;
-  height: 15vh;
+.sect3 .sect3_all .sect3_header {
+  width: 94vw;
+  height: 14vh;
   background-color: rgb(26, 26, 26);
   border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.sect3 .sect3_all .sect3_text p {
-  width: 85vw;
-  font-size: 3rem;
-  color: rgb(249, 239, 236);
-  font-weight: 600;
-  font-family: "Roboto Flex", monospace;
-  line-height: 100%;
-  text-transform: uppercase;
-}
-.sect3 .sect3_all .sect3_card_all {
-  width: 94vw;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 2vh;
-}
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 91vw;
-}
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows .sect3_card {
-  background-color: rgb(26, 26, 26);
-  width: 45vw;
-  height: 39vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 14px;
-}
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows .sect3_card .sect3_card_one_rows {
-  display: flex;
-  justify-content: space-between;
-  align-items: start;
-  width: 35vw;
-  height: 11vh;
-}
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows .sect3_card .sect3_card_one_rows .sect3_card_text_one {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.5vw;
-}
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows .sect3_card .sect3_card_one_rows .sect3_card_text_one p {
-  font-size: 1.875rem;
-  color: rgb(249, 239, 236);
-  font-weight: 500;
-  font-family: "Roboto Flex", monospace;
-  line-height: 150%;
-  text-transform: uppercase;
-}
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows .sect3_card .sect3_card_one_rows .sect3_card_text_two {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.5vw;
-}
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows .sect3_card .sect3_card_one_rows .sect3_card_text_two p {
-  font-size: 1.25rem;
-  color: rgb(179, 179, 178);
-  font-weight: 500;
-  font-family: "Roboto Flex", monospace;
-  line-height: 150%;
-  text-transform: uppercase;
-}
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows .sect3_card .sect3_card_text_big {
-  width: 35vw;
-  height: 7vh;
-  display: flex;
-  align-items: start;
-}
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows .sect3_card .sect3_card_text_big p {
-  font-size: 1.125rem;
-  color: rgb(179, 179, 178);
-  font-weight: 400;
-  font-family: "Roboto Flex", monospace;
-  line-height: 150%;
-}
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows .sect3_card .sect3_card_text_down {
-  width: 35vw;
-  display: flex;
-  align-items: center;
-  justify-content: end;
-}
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows .sect3_card .sect3_card_text_down p {
-  font-size: 1.875rem;
-  color: rgb(249, 239, 236);
-  font-weight: 500;
-  font-family: "Roboto Flex", monospace;
-  line-height: 150%;
-  text-transform: uppercase;
-}
-
-.otst1 {
-  height: 5vh;
-  background-color: rgb(15, 15, 15);
-}
-
-.sect4 {
-  width: 100vw;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #0F0F0F;
-  flex-direction: column;
-}
-.sect4 .sect4_all {
-  width: 94vw;
-  height: 118vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  border-radius: 24px;
-}
-.sect4 .sect4_all .sect4_header {
-  width: 94vw;
-  height: 15vh;
-  background-color: rgb(26, 26, 26);
-  border-radius: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.sect4 .sect4_all .sect4_header .sect4_header_wh {
+.sect3 .sect3_all .sect3_header .sect3_header_wh {
   width: 89vw;
-  height: 15vh;
+  height: 14vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
 }
-.sect4 .sect4_all .sect4_header .sect4_header_wh .sect4_header_text {
+.sect3 .sect3_all .sect3_header .sect3_header_wh .sect3_header_text {
   display: flex;
   align-items: center;
 }
-.sect4 .sect4_all .sect4_header .sect4_header_wh .sect4_header_text p {
+.sect3 .sect3_all .sect3_header .sect3_header_wh .sect3_header_text p {
   font-size: 3rem;
   color: rgb(249, 239, 236);
   font-weight: 600;
@@ -591,255 +599,286 @@ header nav .navigat ul a .li7 {
   line-height: 100%;
   text-transform: uppercase;
 }
-.sect4 .sect4_all .sect4_header .sect4_header_wh .sect4_header_btn {
+.sect3 .sect3_all .sect3_header .sect3_header_wh .sect3_header_btn {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 0.5vw;
+  gap: 0.8vw;
+  justify-content: center;
+  cursor: pointer;
+}
+.sect3 .sect3_all .sect3_header .sect3_header_wh .sect3_header_btn .sect3_header_btn_circle {
+  border-radius: 50%;
+  border: 1px solid rgb(45, 45, 45);
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
-.sect4 .sect4_all .sect4_header .sect4_header_wh .sect4_header_btn p {
-  font-size: 1.25rem;
+.sect3 .sect3_all .sect3_header .sect3_header_wh .sect3_header_btn p {
+  font-size: 1.125rem;
   color: rgb(179, 179, 178);
   font-weight: 500;
   font-family: "Roboto Mono", monospace;
   line-height: 150%;
   text-transform: uppercase;
 }
-.sect4 .sect4_all .sect4_cards_all {
+.sect3 .sect3_all .sect3_cards_all {
   width: 94vw;
+  height: 77vh;
   display: flex;
   flex-direction: column;
-  gap: 2vh;
+  justify-content: space-between;
+  align-items: center;
 }
-.sect4 .sect4_all .sect4_cards_all .sect4_card {
+.sect3 .sect3_all .sect3_cards_all .sect3_card {
   width: 94vw;
-  height: 46vh;
+  height: 37vh;
   border: 2px solid rgb(31, 31, 31);
   border-radius: 16px;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 1vw;
 }
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_left {
-  background-color: rgb(26, 26, 26);
-  width: 28.5vw;
-  height: 42vh;
-  gap: 4vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 14px;
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_left .sect4_card_left_top {
-  width: 23vw;
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh {
+  width: 91vw;
+  height: 33vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_left .sect4_card_left_top .sect4_card_title_block {
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left {
+  width: 38vw;
+  height: 33vh;
+  background-color: rgb(26, 26, 26);
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh {
+  width: 34vw;
+  height: 16vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_left_top {
+  width: 34vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_left_top .sect3_card_title_block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.6vw;
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_left_top .sect3_card_title_block .sect3_icon_box {
+  background-color: rgb(31, 31, 31);
+  border-radius: 10px;
   display: flex;
   align-items: center;
-  gap: 0.5vw;
+  justify-content: center;
 }
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_left .sect4_card_left_top .sect4_card_title_block p {
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_left_top .sect3_card_title_block p {
   font-size: 1.5rem;
   color: rgb(249, 239, 236);
   font-weight: 500;
   font-family: "Roboto Flex", monospace;
   text-transform: uppercase;
 }
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_left .sect4_card_left_top .sect4_card_details_btn {
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_left_top .sect3_card_visit_btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5vw;
+  cursor: pointer;
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_left_top .sect3_card_visit_btn .sect3_visit_btn_circle {
+  border-radius: 50%;
+  border: 1px solid rgb(45, 45, 45);
+  background-color: rgb(20, 20, 20);
   display: flex;
   align-items: center;
-  gap: 0.3vw;
+  justify-content: center;
 }
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_left .sect4_card_left_top .sect4_card_details_btn p {
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_left_top .sect3_card_visit_btn p {
+  font-size: 1.125rem;
+  color: rgb(179, 179, 178);
+  font-weight: 500;
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_tags {
+  display: flex;
+  flex-direction: row;
+  gap: 0.6vw;
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_tags .sect3_card_tag1 {
+  width: 13vw;
+  height: 4.5vh;
+  background-color: rgb(31, 31, 31);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_tags .sect3_card_tag1 p {
+  font-size: 1.125rem;
+  color: rgb(179, 179, 178);
+  font-family: "Roboto Flex", monospace;
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_tags .sect3_card_tag1 p .sect3_span_orange {
+  color: rgb(206, 125, 99);
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_tags .sect3_card_tag1 p span {
+  color: rgb(249, 239, 236);
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_tags .sect3_card_tag2 {
+  width: 19vw;
+  height: 4.5vh;
+  background-color: rgb(31, 31, 31);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_tags .sect3_card_tag2 p {
+  font-size: 1.125rem;
+  color: rgb(179, 179, 178);
+  font-family: "Roboto Flex", monospace;
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_tags .sect3_card_tag2 p .sect3_span_orange {
+  color: rgb(206, 125, 99);
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_tags .sect3_card_tag2 p span {
+  color: rgb(249, 239, 236);
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_tags .sect3_card_tag3 {
+  width: 14.5vw;
+  height: 4.5vh;
+  background-color: rgb(31, 31, 31);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_tags .sect3_card_tag3 p {
+  font-size: 1.125rem;
+  color: rgb(179, 179, 178);
+  font-family: "Roboto Flex", monospace;
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_tags .sect3_card_tag3 p .sect3_span_orange {
+  color: rgb(206, 125, 99);
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_tags .sect3_card_tag3 p span {
+  color: rgb(249, 239, 236);
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_tags .sect3_card_tag4 {
+  width: 19.5vw;
+  height: 4.5vh;
+  background-color: rgb(31, 31, 31);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_tags .sect3_card_tag4 p {
+  font-size: 1.125rem;
+  color: rgb(179, 179, 178);
+  font-family: "Roboto Flex", monospace;
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_tags .sect3_card_tag4 p .sect3_span_orange {
+  color: rgb(206, 125, 99);
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_left .sect3_card_left_wh .sect3_card_tags .sect3_card_tag4 p span {
+  color: rgb(249, 239, 236);
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_right {
+  width: 51vw;
+  height: 33vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_right .sect3_card_tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 0.6vw;
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_right .sect3_card_tabs .sect3_card_tab {
+  width: 7.5vw;
+  height: 4.5vh;
+  background-color: rgb(26, 26, 26);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_right .sect3_card_tabs .sect3_card_tab p {
   font-size: 1rem;
   color: rgb(179, 179, 178);
   font-weight: 500;
   font-family: "Roboto Mono", monospace;
   text-transform: uppercase;
 }
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_left .sect4_card_tags {
-  width: 23vw;
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_right .sect3_card_tabs .sect3_card_tab_active {
+  width: 7.5vw;
+  height: 4.5vh;
+  background-color: rgb(206, 125, 99);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_right .sect3_card_tabs .sect3_card_tab_active p {
+  font-size: 1rem;
+  color: rgb(15, 15, 15);
+  font-weight: 600;
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_right .sect3_card_content {
+  width: 51vw;
+  height: 26vh;
+  background-color: rgb(26, 26, 26);
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_right .sect3_card_content .sect3_card_content_wh {
+  width: 46vw;
+  height: 20vh;
   display: flex;
   flex-direction: column;
-  gap: 1vh;
+  justify-content: space-evenly;
+  align-items: start;
 }
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_left .sect4_card_tags .sect4_card_tag {
-  width: 15vw;
-  background-color: rgb(36, 36, 36);
-  border-radius: 100px;
-  height: 4vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_left .sect4_card_tags .sect4_card_tag p {
-  font-size: 1.125rem;
-  color: rgb(179, 179, 178);
-  font-family: "Roboto Flex", monospace;
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_left .sect4_card_tags .sect4_card_tag p .sect4_card_span_orang {
-  color: rgb(206, 125, 99);
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_left .sect4_card_tags .sect4_card_tag p span {
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_right .sect3_card_content .sect3_card_content_wh .sect3_content_title p {
+  font-size: 3rem;
   color: rgb(249, 239, 236);
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_left .sect4_card_tags .sect4_card_tag2 {
-  width: 16vw;
-  background-color: rgb(36, 36, 36);
-  border-radius: 100px;
-  height: 4vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_left .sect4_card_tags .sect4_card_tag2 p {
-  font-size: 1.125rem;
-  color: rgb(179, 179, 178);
+  font-weight: 600;
   font-family: "Roboto Flex", monospace;
+  text-transform: uppercase;
 }
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_left .sect4_card_tags .sect4_card_tag2 p .sect4_card_span_orang {
-  color: rgb(206, 125, 99);
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_right .sect3_card_content .sect3_card_content_wh .sect3_content_desc {
+  width: 46vw;
 }
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_left .sect4_card_tags .sect4_card_tag2 p span {
-  color: rgb(249, 239, 236);
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_left .sect4_card_tags .sect4_card_tag1 {
-  width: 10vw;
-  background-color: rgb(36, 36, 36);
-  border-radius: 100px;
-  height: 4vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_left .sect4_card_tags .sect4_card_tag1 p {
+.sect3 .sect3_all .sect3_cards_all .sect3_card .sect3_card_wh .sect3_card_right .sect3_card_content .sect3_card_content_wh .sect3_content_desc p {
   font-size: 1.125rem;
-  color: rgb(179, 179, 178);
-  font-family: "Roboto Flex", monospace;
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_left .sect4_card_tags .sect4_card_tag1 p .sect4_card_span_orang {
-  color: rgb(206, 125, 99);
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_left .sect4_card_tags .sect4_card_tag1 p span {
-  color: rgb(249, 239, 236);
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_left .sect4_card_left_text {
-  width: 23vw;
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_left .sect4_card_left_text p {
-  font-size: 1.1rem;
   color: rgb(179, 179, 178);
   font-weight: 400;
   font-family: "Roboto Flex", monospace;
   line-height: 150%;
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_center {
-  width: 33vw;
-  height: 42vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_center img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 12px;
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_right {
-  width: 28.5vw;
-  height: 42vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_right .sect4_card_tech {
-  background-color: rgb(20, 20, 20);
-  border-radius: 14px;
-  gap: 1vw;
-  height: 22vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_right .sect4_card_tech .sect4_tech_title {
-  width: 23vw;
-  font-size: 1.125rem;
-  color: rgb(179, 179, 178);
-  font-weight: 500;
-  font-family: "Roboto Flex", monospace;
-  text-transform: uppercase;
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_right .sect4_card_tech .sect4_tech_tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8vh 0.5vw;
-  width: 23vw;
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_right .sect4_card_tech .sect4_tech_tags .sect4_tech_tag {
-  background-color: rgb(31, 31, 31);
-  border-radius: 45px;
-  height: 4.5vh;
-  padding: 0 0.8vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_right .sect4_card_tech .sect4_tech_tags .sect4_tech_tag p {
-  font-size: 1rem;
-  color: rgb(230, 230, 230);
-  font-family: "Roboto Mono", monospace;
-  white-space: nowrap;
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_right .sect4_card_team {
-  background-color: rgb(20, 20, 20);
-  border-radius: 14px;
-  height: 10vh;
-  gap: 2vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_right .sect4_card_team p {
-  font-size: 1.125rem;
-  color: rgb(255, 255, 255);
-  font-weight: 500;
-  font-family: "Roboto Flex", monospace;
-  text-transform: uppercase;
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_right .sect4_card_team .sect4_team_avatars {
-  display: flex;
-  gap: 0.3vw;
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_right .sect4_card_team .sect4_team_avatars img {
-  width: 2.5vw;
-  height: 2.5vw;
-  border-radius: 50%;
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_right .sect4_card_btn {
-  background-color: rgb(206, 125, 99);
-  border-radius: 14px;
-  height: 6vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.sect4 .sect4_all .sect4_cards_all .sect4_card .sect4_card_right .sect4_card_btn p {
-  font-size: 1.25rem;
-  color: rgb(15, 15, 15);
-  font-weight: 600;
-  font-family: "Roboto Flex", monospace;
-  text-transform: uppercase;
 }
 
 .sect5 {

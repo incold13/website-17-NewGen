@@ -111,468 +111,188 @@ header {
 }
 .sect1 {
     width: 100vw;
-    height: 85vh;
+    height: 52vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #0F0F0F;
     flex-direction: column;
-    .sect1_one {
+    .sect1_all {
         width: 94vw;
-        height: 62vh;
+        height: 46vh;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        .sect1_one_right {
+        .sect1_left {
             width: 63vw;
-            height: 58vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background-color: #1A1A1A;
+            height: 46vh;
+            background-color: rgb(26, 26, 26);
+            border: 1px solid rgba(38, 38, 38, 1);
             border-radius: 16px;
-            .sect1_one_right_text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .sect1_left_wh {
+                width: 57vw;
+                height: 36vh;
                 display: flex;
                 flex-direction: column;
-                width: 61vw;
-                align-items: center;
-                justify-content: end;
-                height: 27vh;
-                gap: 2vh;
-                .sect1_one_right_text_high {
-                    width: 54vw;
+                justify-content: center;
+                align-items: start;
+                .sect1_title_box {
+                    width: 57vw;
                     display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    p {
-                        width: 32vw;
-                        font-size: 4.875rem;
-                        font-weight: 600;
-                        font-family: "Roboto Flex", monospace;
-                        color: rgba(249, 239, 236, 1);
-                    }
-                    .sect1_one_right_text_high_one {
-                        width: 13vw;
+                    flex-direction: column;
+                    gap: 1.5vh;
+                    .sect1_title_row {
                         display: flex;
                         flex-direction: row;
                         align-items: center;
+                        gap: 1vw;
                         p {
-                            font-size: 1.5rem;
-                            color: rgba(206, 125, 99, 1);
-                            font-family: "Roboto Flex", monospace;
-                            font-weight: 500;
-                        }
-                    }
-                }
-                .sect1_one_right_text_high_two {
-                    width: 54vw;
-                    p {
-                        width: 50vw;
-                        font-size: 4.875rem;
-                        font-weight: 600;
-                        font-family: "Roboto Flex", monospace;
-                        color: rgba(249, 239, 236, 1);
-                    }
-                }
-            }
-            .otsp {
-                height: 4vh;
-            }
-            .sect1_one_right_text_high_tree {
-                width: 54vw;
-                height: 15vh;
-                display: flex;
-                align-items: start;
-                font-size: 1.125rem;
-                font-weight: 400;
-                font-family: "Roboto Flex", monospace;
-                color: rgb(103, 102, 101);
-                p {
-                    width: 45vw;
-                }
-            }
-            .sect1_one_right_text_high_four {
-                display: flex;
-                flex-direction: row;
-                width: 55vw;
-                height: 7vh;
-                border-radius: 12px;
-                background-color: rgb(15, 15, 15);
-                white-space: nowrap;
-                overflow: hidden;
-                ul {
-                    display: flex;
-                    flex-direction: row;
-                    gap: 2vw;
-                    align-items: center;
-                    justify-content: center;
-                    li {
-                        font-size: 1.25rem;
-                        font-weight: 400;
-                        font-family: "Roboto Mono", monospace;
-                        color: rgba(103, 102, 101, 1);
-                        text-transform: uppercase;
-                    }
-                    li::marker {
-                      color: rgba(206, 125, 99, 1);
-                    }
-                }
-            }
-        }
-        .sect1_two {
-            width: 29vw;
-            height: 58vh;
-            background-color: rgba(31, 31, 31, 1);
-            border-radius: 14px;
-            .sect1_two_text_wh {
-                width: 100vw;
-                height: 12vh;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                .sect1_two_text {
-                    width: 26vw;
-                    display: flex;
-                    flex-direction: column;
-                    gap: 0.5vw;
-                    .sect1_two_text_one {
-                        font-size: 1.5rem;
-                        font-weight: 500;
-                        font-family: "Roboto Flex", monospace;
-                        color: rgba(249, 239, 236, 1);
-                        text-transform: uppercase;
-                    }
-                    .sect1_two_text_two {
-                        font-size: 1.25rem;
-                        font-weight: 400;
-                        font-family: "Roboto Flex", monospace;
-                        color: rgba(179, 179, 178, 1);
-                    }
-                }
-            }
-        }
-    }
-    .sect1_tree {
-        width: 100vw;
-        height: 19vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        .sect1_tree_all {
-            width: 94vw;
-            height: 18vh;
-            border: 2px solid rgba(31, 31, 31, 1);
-            border-radius: 20px;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            .sect1_tree_all_wh {
-                width: 92vw;
-                height: 14vh;
-                border-radius: 14px;
-                display: flex;
-                flex-direction: row;
-                gap: 1vw;
-                .sect1_tree_one {
-                    width: 15vw;
-                    height: 13.8vh;
-                    border-radius: 14px;
-                    background-color: rgba(26, 26, 26, 1);
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    flex-direction: column;
-                    .sect1_tree_one_text_1 {
-                        font-size: 1.25rem;
-                        font-weight: 500;
-                        font-family: "Roboto Mono", monospace;
-                        color: rgba(179, 179, 178, 1);
-                        text-transform: uppercase;
-                    }
-                    .sect1_tree_one_text_2 {
-                        font-size: 3.75rem;
-                        font-weight: 600;
-                        font-family: "Roboto Flex", monospace;
-                        color: rgba(218, 158, 139, 1);
-                        text-transform: uppercase;
-                    }
-                }
-                .sect1_tree_two {
-                    width: 15vw;
-                    height: 13.8vh;
-                    border-radius: 14px;
-                    background-color: rgba(26, 26, 26, 1);
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    flex-direction: column;
-                    flex-direction: row;
-                    gap: 0.5vw;
-                    .sect1_tree_one_text_1 {
-                        font-size: 1.25rem;
-                        font-weight: 500;
-                        font-family: "Roboto Mono", monospace;
-                        color: rgba(179, 179, 178, 1);
-                        text-transform: uppercase;
-                    }
-                }
-            }
-        }
-    }
-}
-
-.sect2 {
-    width: 100vw;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0F0F0F;
-    flex-direction: column;
-        .sect2_all {
-            width: 94vw;
-            height: 62vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            align-items: center;
-            border: 2px solid rgba(31, 31, 31, 1);
-            border-radius: 24px;
-            .sect2_text_one {
-                width: 17vw;
-                background-color: rgb(26, 26, 26);
-                width: 92vw;
-                height: 15vh;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                border-radius: 16px;
-                p {
-                    width: 88vw;
-                    font-size: 3rem;
-                    color: rgba(249, 239, 236, 1);
-                    font-weight: 600;
-                    font-family: "Roboto Flex", monospace;
-                    text-transform: uppercase;
-                }
-            }
-            .sect2_card {
-                width: 92vw;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                .sect2_card_all {
-                    background-color: rgb(26, 26, 26);
-                    width: 22vw;
-                    height: 39vh;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    border-radius: 16px;
-                    flex-direction: column;
-                    .sect2_card_wh {
-                        width: 18vw;
-                        height: 31vh;
-                        display: grid;
-                        grid-template-rows: 10vh 15vh;
-                        .sect2_card_text_one {
-                            font-size: 1.875rem;
+                            font-size: 4.25rem;
                             color: rgba(249, 239, 236, 1);
-                            font-weight: 500;
+                            font-weight: 600;
                             font-family: "Roboto Flex", monospace;
+                            line-height: 100%;
                             text-transform: uppercase;
-                            line-height: 150%;
+                            white-space: nowrap;
                         }
-                        .sect2_card_text_two {
-                            font-size: 1.25rem;
-                            color: rgba(179, 179, 178, 1);
-                            font-weight: 400;
-                            font-family: "Roboto Flex", monospace;
-                            line-height: 150%;
-                        }
-                        .sect2_card_block {
+                        .sect1_project_btn {
                             display: flex;
-                            height: 7vh;
                             flex-direction: row;
                             align-items: center;
-                            justify-content: start;
                             gap: 0.5vw;
+                            border-radius: 100px;
+                            height: 5vh;
+                            width: 13.5vw;
+                            justify-content: center;
+                            cursor: pointer;
+                            .sect1_btn_circle {
+                                border-radius: 50%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
                             p {
-                                font-size: 1.25rem;
-                                color: rgba(179, 179, 178, 1);
-                                font-weight: 400;
-                                font-family: "Roboto Flex", monospace;
-                                line-height: 150%;
+                                font-size: 1.125rem;
+                                color: rgba(206, 125, 99, 1);
+                                font-weight: 500;
+                                font-family: "Roboto Mono", monospace;
+                                text-transform: uppercase;
+                                white-space: nowrap;
                             }
                         }
                     }
+                    .sect1_title_low {
+                        p {
+                            font-size: 4.25rem;
+                            color: rgba(249, 239, 236, 1);
+                            font-weight: 600;
+                            font-family: "Roboto Flex", monospace;
+                            line-height: 100%;
+                            text-transform: uppercase;
+                        }
+                    }
                 }
             }
         }
-    }
-.sect3 {
-    width: 100vw;
-    height: 105vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0F0F0F;
-    flex-direction: column;
-    .sect3_all {
-        width: 94vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        border: 2px solid rgba(31, 31, 31, 1);
-        border-radius: 24px;
-        .sect3_text {
-            width: 91vw;
-            height: 15vh;
-            background-color: rgba(26, 26, 26, 1);
+        .sect1_right {
+            width: 29.5vw;
+            height: 46vh;
+            background-color: rgb(26, 26, 26);
+            border: 1px solid rgba(38, 38, 38, 1);
             border-radius: 16px;
             display: flex;
-            align-items: center;
             justify-content: center;
-            p {
-                width: 85vw;
-                font-size: 3rem;
-                color: rgba(249, 239, 236, 1);
-                font-weight: 600;
-                font-family: "Roboto Flex", monospace;
-                line-height: 100%;
-                text-transform: uppercase;
-            }
-        }
-        .sect3_card_all {
-            width: 94vw;
-            height: 80vh;
-            display: flex;
             align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            gap: 2vh;
-            .sect3_card_rows {
+            .sect1_right_wh {
+                width: 25.5vw;
+                height: 34vh;
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 justify-content: space-between;
-                width: 91vw;
-                .sect3_card {
-                    background-color: rgba(26, 26, 26, 1);
-                    width: 45vw;
-                    height: 39vh;
+                align-items: start;
+                .sect1_right_title {
+                    p {
+                        font-size: 1.5rem;
+                        color: rgba(249, 239, 236, 1);
+                        font-weight: 600;
+                        font-family: "Roboto Flex", monospace;
+                        text-transform: uppercase;
+                    }
+                }
+                .sect1_right_desc {
+                    width: 25.5vw;
+                    p {
+                        width: 21vw;
+                        font-size: 1.125rem;
+                        color: rgba(179, 179, 178, 1);
+                        font-weight: 400;
+                        font-family: "Roboto Flex", monospace;
+                        line-height: 150%;
+                    }
+                }
+                .sect1_know_btn {
                     display: flex;
-                    justify-content: center;
+                    flex-direction: row;
                     align-items: center;
-                    flex-direction: column;
-                    border-radius: 14px;
-                    .sect3_card_one_rows {
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: start;
-                        width: 35vw;
-                        height: 11vh;
-                        .sect3_card_text_one {
-                            display: flex;
-                            flex-direction: row;
-                            align-items: center;
-                            gap: 0.5vw;
-                            p {
-                                font-size: 1.875rem;
-                                color: rgba(249, 239, 236, 1);
-                                font-weight: 500;
-                                font-family: "Roboto Flex", monospace;
-                                line-height: 150%;
-                                text-transform: uppercase;
-                            }
-                        }
-                        .sect3_card_text_two {
-                            display: flex;
-                            flex-direction: row;
-                            align-items: center;
-                            gap: 0.5vw;
-                            p {
-                                font-size: 1.25rem;
-                                color: rgba(179, 179, 178, 1);
-                                font-weight: 500;
-                                font-family: "Roboto Flex", monospace;
-                                line-height: 150%;
-                                text-transform: uppercase;
-                            }
-                        }
-                    }
-                    .sect3_card_text_big {
-                        width: 35vw;
-                        height: 7vh;
-                        display: flex;
-                        align-items: start;
-                        p {
-                            font-size: 1.125rem;
-                            color: rgba(179, 179, 178, 1);
-                            font-weight: 400;
-                            font-family: "Roboto Flex", monospace;
-                            line-height: 150%;
-                        }
-                    }
-                    .sect3_card_text_down {
-                        width: 35vw;
+                    gap: 0.5vw;
+                    cursor: pointer;
+                    .sect1_know_circle {
+                        border-radius: 50%;
+                        border: 1px solid rgba(45, 45, 45, 1);
+                        background-color: rgba(20, 20, 20, 1);
                         display: flex;
                         align-items: center;
-                        justify-content: end;
-                        p {
-                            font-size: 1.875rem;
-                            color: rgba(249, 239, 236, 1);
-                            font-weight: 500;
-                            font-family: "Roboto Flex", monospace;
-                            line-height: 150%;
-                            text-transform: uppercase;
-                        }
+                        justify-content: center;
+                    }
+                    p {
+                        font-size: 1.125rem;
+                        color: rgba(179, 179, 178, 1);
+                        font-weight: 500;
+                        font-family: "Roboto Mono", monospace;
+                        text-transform: uppercase;
                     }
                 }
             }
         }
-    }       
+    }
 }
-.otst1 {
-    height: 5vh;
-    background-color: rgba(15, 15, 15, 1);
-}
-.sect4 {
+.sect2 {
     width: 100vw;
-    min-height: 100vh;
+    height: 123vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #0F0F0F;
     flex-direction: column;
-    .sect4_all {
-        width: 94vw;
-        height: 118vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        border-radius: 24px;
-        .sect4_header {
-            width: 94vw;
-            height: 15vh;
+    .sect2_all {
+         width: 94vw;
+         height: 113vh;
+         gap: 2vw;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         border: 2px solid rgb(31, 31, 31);
+         border-radius: 24px;
+        .sect2_header {
+            width: 90vw;
+            height: 14vh;
             background-color: rgb(26, 26, 26);
+            border: 1px solid rgba(38, 38, 38, 1);
             border-radius: 16px;
             display: flex;
             align-items: center;
             justify-content: center;
-            .sect4_header_wh {
-                width: 89vw;
-                height: 15vh;
+            .sect2_header_wh {
+                width: 85vw;
+                height: 14vh;
                 display: flex;
                 align-items: center;
-                justify-content: space-between;
-                flex-direction: row;
-                .sect4_header_text {
+                .sect2_header_text {
                     display: flex;
                     align-items: center;
                     p {
@@ -584,256 +304,341 @@ header {
                         text-transform: uppercase;
                     }
                 }
-                .sect4_header_btn {
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    gap: 0.5vw;
-                    justify-content: center;
-                    p {
-                        font-size: 1.25rem;
-                        color: rgba(179, 179, 178, 1);
-                        font-weight: 500;
-                        font-family: "Roboto Mono", monospace;
-                        line-height: 150%;
-                        text-transform: uppercase;
-                    }
-                }
             }
         }
-        .sect4_cards_all {
-            width: 94vw;
+        .sect2_rows_all {
+            width: 90vw;
+            height: 88vh;
             display: flex;
             flex-direction: column;
-            gap: 2vh;
-            .sect4_card {
-                width: 94vw;
-                height: 46vh;
-                border: 2px solid rgba(31, 31, 31, 1);
-                border-radius: 16px;
+            justify-content: space-between;
+            align-items: center;
+            .sect2_row {
+                width: 90vw;
+                height: 42vh;
                 display: flex;
                 flex-direction: row;
+                justify-content: space-between;
                 align-items: center;
-                justify-content: center;
-                gap: 1vw;
-                .sect4_card_left {
-                    background-color: rgba(26, 26, 26, 1);
-                    width: 28.5vw;
+                .sect2_job_card {
+                    width: 44vw;
                     height: 42vh;
-                    gap: 4vh;
+                    background-color: rgb(26, 26, 26);
+                    border: 1px solid rgba(38, 38, 38, 1);
+                    border-radius: 16px;
                     display: flex;
-                    flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    border-radius: 14px;
-                    .sect4_card_left_top {
-                        width: 23vw;
+                    .sect2_job_wh {
+                        width: 39vw;
+                        height: 36vh;
                         display: flex;
-                        flex-direction: row;
+                        flex-direction: column;
                         justify-content: space-between;
-                        align-items: center;
-                        .sect4_card_title_block {
+                        align-items: start;
+                        .sect2_job_top {
+                            width: 39vw;
                             display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
                             align-items: center;
-                            gap: 0.5vw;
-                            p {
-                                font-size: 1.5rem;
-                                color: rgba(249, 239, 236, 1);
-                                font-weight: 500;
-                                font-family: "Roboto Flex", monospace;
-                                text-transform: uppercase;
-                            }
-                        }
-                        .sect4_card_details_btn {
-                            display: flex;
-                            align-items: center;
-                            gap: 0.3vw;
-
-                            p {
-                                font-size: 1rem;
-                                color: rgba(179, 179, 178, 1);
-                                font-weight: 500;
-                                font-family: "Roboto Mono", monospace;
-                                text-transform: uppercase;
-                            }
-                        }
-                    }
-                    .sect4_card_tags {
-                        width: 23vw;
-                        display: flex;
-                        flex-direction: column;
-                        gap: 1vh;
-                        .sect4_card_tag {
-                            width: 15vw;
-                            background-color: rgba(36, 36, 36, 1);
-                            border-radius: 100px;
-                            height: 4vh;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            p {
-                                font-size: 1.125rem;
-                                color: rgba(179, 179, 178, 1);
-                                font-family: "Roboto Flex", monospace;
-                                .sect4_card_span_orang {
-                                    color: rgba(206, 125, 99, 1);
+                            .sect2_job_title_block {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                gap: 0.6vw;
+                                .sect2_icon_box {
+                                    background-color: rgb(31, 31, 31);
+                                    border: 1px solid rgba(45, 45, 45, 1);
+                                    border-radius: 10px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
                                 }
-                                span {
+                                p {
+                                    font-size: 1.5rem;
                                     color: rgba(249, 239, 236, 1);
+                                    font-weight: 500;
+                                    font-family: "Roboto Flex", monospace;
+                                    text-transform: uppercase;
+                                }
+                            }
+                            .sect2_view_btn {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                gap: 0.4vw;
+                                cursor: pointer;
+                                .sect2_view_circle {
+                                    border-radius: 50%;
+                                    border: 1px solid rgba(45, 45, 45, 1);
+                                    background-color: rgba(20, 20, 20, 1);
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                }
+                                p {
+                                    font-size: 1.125rem;
+                                    color: rgba(179, 179, 178, 1);
+                                    font-weight: 500;
+                                    font-family: "Roboto Mono", monospace;
+                                    text-transform: uppercase;
                                 }
                             }
                         }
-                        .sect4_card_tag2 {
-                            width: 16vw;
-                            background-color: rgba(36, 36, 36, 1);
-                            border-radius: 100px;
-                            height: 4vh;
+                        .sect2_job_tags {
                             display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            p {
-                                font-size: 1.125rem;
-                                color: rgba(179, 179, 178, 1);
-                                font-family: "Roboto Flex", monospace;
-                                .sect4_card_span_orang {
-                                    color: rgba(206, 125, 99, 1);
-                                }
-                                span {
-                                    color: rgba(249, 239, 236, 1);
-                                }
-                            }
-                        }
-                        .sect4_card_tag1 {
-                            width: 10vw;
-                            background-color: rgba(36, 36, 36, 1);
-                            border-radius: 100px;
-                            height: 4vh;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            p {
-                                font-size: 1.125rem;
-                                color: rgba(179, 179, 178, 1);
-                                font-family: "Roboto Flex", monospace;
-                                .sect4_card_span_orang {
-                                    color: rgba(206, 125, 99, 1);
-                                }
-                                span {
-                                    color: rgba(249, 239, 236, 1);
-                                }
-                            }
-                        }
-                    }
-                    .sect4_card_left_text {
-                        width: 23vw;
-                        p {
-                            font-size: 1.1rem;
-                            color: rgba(179, 179, 178, 1);
-                            font-weight: 400;
-                            font-family: "Roboto Flex", monospace;
-                            line-height: 150%;
-                        }
-                    }
-                }
-                .sect4_card_center {
-                    width: 33vw;
-                    height: 42vh;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-
-                    img {
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
-                        border-radius: 12px;
-                    }
-                }
-                .sect4_card_right {
-                    width: 28.5vw;
-                    height: 42vh;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-between;
-
-                    .sect4_card_tech {
-                        background-color: rgb(20, 20, 20);
-                        border-radius: 14px;
-                        gap: 1vw;
-                        height: 22vh;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: center;
-
-                        .sect4_tech_title {
-                            width: 23vw;
-                            font-size: 1.125rem;
-                            color: rgba(179, 179, 178, 1);
-                            font-weight: 500;
-                            font-family: "Roboto Flex", monospace;
-                            text-transform: uppercase;
-                        }
-                        .sect4_tech_tags {
-                            display: flex;
-                            flex-wrap: wrap;
-                            gap: 0.8vh 0.5vw;
-                            width: 23vw;
-                            .sect4_tech_tag {
+                            flex-direction: row;
+                            gap: 0.6vw;
+                            .sect2_job_tag_salary {
+                                height: 4.2vh;
+                                width: 18.5vw;
                                 background-color: rgba(31, 31, 31, 1);
-                                border-radius: 45px;
-                                height: 4.5vh;
-                                padding: 0 0.8vw; 
+                                border: 1px solid rgba(45, 45, 45, 1);
+                                border-radius: 100px;
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
                                 p {
                                     font-size: 1rem;
-                                    color: rgba(230, 230, 230, 1);
+                                    color: rgba(179, 179, 178, 1);
                                     font-family: "Roboto Mono", monospace;
-                                    white-space: nowrap;
+                                    .sect2_span_orange {
+                                        color: rgba(206, 125, 99, 1);
+                                    }
+                                    span {
+                                        color: rgba(249, 239, 236, 1);
+                                    }
+                                }
+                            }
+                            .sect2_job_tag_exp {
+                                height: 4.2vh;
+                                width: 11vw;
+                                background-color: rgba(31, 31, 31, 1);
+                                border: 1px solid rgba(45, 45, 45, 1);
+                                border-radius: 100px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                p {
+                                    font-size: 1rem;
+                                    color: rgba(179, 179, 178, 1);
+                                    font-family: "Roboto Mono", monospace;
+                                    .sect2_span_orange {
+                                        color: rgba(206, 125, 99, 1);
+                                    }
+                                    span {
+                                        color: rgba(249, 239, 236, 1);
+                                    }
+                                }
+                            }
+                            .sect2_job_tag_date {
+                                height: 4.2vh;
+                                width: 11vw;
+                                background-color: rgba(31, 31, 31, 1);
+                                border: 1px solid rgba(45, 45, 45, 1);
+                                border-radius: 100px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                p {
+                                    font-size: 1rem;
+                                    color: rgba(179, 179, 178, 1);
+                                    font-family: "Roboto Mono", monospace;
+                                    .sect2_span_orange {
+                                        color: rgba(206, 125, 99, 1);
+                                    }
+                                    span {
+                                        color: rgba(249, 239, 236, 1);
+                                    }
                                 }
                             }
                         }
-                    }
-                    .sect4_card_team {
-                        background-color: rgb(20, 20, 20);
-                        border-radius: 14px;
-                        height: 10vh;
-                        gap: 2vw;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        p {
-                            font-size: 1.125rem;
-                            color: rgba(255, 255, 255, 1);
-                            font-weight: 500;
-                            font-family: "Roboto Flex", monospace;
-                            text-transform: uppercase;
-                        }
-                        .sect4_team_avatars {
+                        .sect2_job_skills {
+                            width: 39vw;
                             display: flex;
-                            gap: 0.3vw;
-                            img {
-                                width: 2.5vw;
-                                height: 2.5vw;
-                                border-radius: 50%;
+                            flex-direction: column;
+                            gap: 0.6vh;
+                            .sect2_skills_title {
+                                font-size: 1.125rem;
+                                color: rgba(249, 239, 236, 1);
+                                font-weight: 500;
+                                font-family: "Roboto Flex", monospace;
+                                text-transform: uppercase;
+                            }
+                            .sect2_skills_desc {
+                                width: 39vw;
+                                font-size: 1rem;
+                                color: rgba(179, 179, 178, 1);
+                                font-weight: 400;
+                                font-family: "Roboto Flex", monospace;
+                                line-height: 145%;
+                            }
+                        }
+                        .sect2_apply_btn {
+                            width: 39vw;
+                            height: 5.5vh;
+                            background-color: rgba(206, 125, 99, 1);
+                            border-radius: 10px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            cursor: pointer;
+                            p {
+                                font-size: 1.125rem;
+                                color: rgb(15, 15, 15);
+                                font-weight: 600;
+                                font-family: "Roboto Mono", monospace;
+                                text-transform: uppercase;
                             }
                         }
                     }
-                    .sect4_card_btn {
-                        background-color: rgba(206, 125, 99, 1);
-                        border-radius: 14px;
+                }
+            }
+        }
+    }
+}
+.sect3 {
+    width: 100vw;
+    height: 105vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F0F0F;
+    flex-direction: column;
+    .sect3_all {
+         width: 94vw;
+         height: 96vh;
+         display: flex;
+         flex-direction: column;
+         gap: 2vw;
+         justify-content: center;
+         align-items: center;
+         border: 2px solid rgb(31, 31, 31);
+         border-radius: 24px;
+        .sect3_header {
+            width: 90vw;
+            height: 14vh;
+            background-color: rgb(26, 26, 26);
+            border: 1px solid rgba(38, 38, 38, 1);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .sect3_header_wh {
+                width: 85vw;
+                height: 14vh;
+                display: flex;
+                align-items: center;
+                .sect3_header_text {
+                    display: flex;
+                    align-items: center;
+                    p {
+                        font-size: 3rem;
+                        color: rgba(249, 239, 236, 1);
+                        font-weight: 600;
+                        font-family: "Roboto Flex", monospace;
+                        line-height: 100%;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+        .sect3_cards_all {
+            width: 90vw;
+            height: 72vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            .sect3_row {
+                width: 90vw;
+                height: 34vh;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                .sect3_card {
+                    width: 21.5vw;
+                    height: 34vh;
+                    background-color: rgb(26, 26, 26);
+                    border: 1px solid rgba(38, 38, 38, 1);
+                    border-radius: 16px;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    .sect3_card_step_box {
+                        width: 21.5vw;
                         height: 6vh;
+                        background-color: rgb(20, 20, 20);
+                        border-bottom: 1px solid rgba(38, 38, 38, 1);
                         display: flex;
-                        align-items: center;
                         justify-content: center;
-                        p {
-                            font-size: 1.25rem;
-                            color: rgba(15, 15, 15, 1);
-                            font-weight: 600;
-                            font-family: "Roboto Flex", monospace;
-                            text-transform: uppercase;
+                        align-items: center;
+                        .sect3_card_step_wh {
+                            width: 18vw;
+                            display: flex;
+                            align-items: center;
+                            p {
+                                font-size: 1.125rem;
+                                color: rgba(179, 179, 178, 1);
+                                font-family: "Roboto Mono", monospace;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                    .sect3_card_body {
+                        width: 21.5vw;
+                        height: 44vh;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .sect3_card_body_wh {
+                            width: 18vw;
+                            height: 23vh;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            align-items: start;
+                            .sect3_card_title {
+                                font-size: 1.25rem;
+                                color: rgba(249, 239, 236, 1);
+                                font-weight: 600;
+                                font-family: "Roboto Flex", monospace;
+                                text-transform: uppercase;
+                                line-height: 130%;
+                            }
+                            .sect3_card_desc {
+                                font-size: 1rem;
+                                color: rgba(179, 179, 178, 1);
+                                font-weight: 400;
+                                font-family: "Roboto Flex", monospace;
+                                line-height: 140%;
+                            }
+                            .sect3_know_btn {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                gap: 0.5vw;
+                                cursor: pointer;
+                                .sect3_know_circle {
+                                    border-radius: 50%;
+                                    border: 1px solid rgba(45, 45, 45, 1);
+                                    background-color: rgba(20, 20, 20, 1);
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                }
+                                p {
+                                    font-size: 1rem;
+                                    color: rgba(179, 179, 178, 1);
+                                    font-weight: 500;
+                                    font-family: "Roboto Mono", monospace;
+                                    text-transform: uppercase;
+                                }
+                            }
                         }
                     }
                 }

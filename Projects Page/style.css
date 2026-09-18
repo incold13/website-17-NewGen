@@ -111,222 +111,175 @@ header nav .navigat ul a .li7 {
 
 .sect1 {
   width: 100vw;
-  height: 85vh;
+  height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #0F0F0F;
   flex-direction: column;
 }
-.sect1 .sect1_one {
+.sect1 .sect1_all {
   width: 94vw;
-  height: 62vh;
+  height: 65vh;
+  background-color: rgb(26, 26, 26);
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sect1 .sect1_all .sect1_wh {
+  width: 88vw;
+  height: 52vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-.sect1 .sect1_one .sect1_one_right {
-  width: 63vw;
-  height: 58vh;
+.sect1 .sect1_all .sect1_wh .sect1_left {
+  width: 53vw;
+  height: 34vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #1A1A1A;
-  border-radius: 16px;
-}
-.sect1 .sect1_one .sect1_one_right .sect1_one_right_text {
-  display: flex;
-  flex-direction: column;
-  width: 61vw;
-  align-items: center;
-  justify-content: end;
-  height: 27vh;
-  gap: 2vh;
-}
-.sect1 .sect1_one .sect1_one_right .sect1_one_right_text .sect1_one_right_text_high {
-  width: 54vw;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.sect1 .sect1_one .sect1_one_right .sect1_one_right_text .sect1_one_right_text_high p {
-  width: 32vw;
-  font-size: 4.875rem;
-  font-weight: 600;
-  font-family: "Roboto Flex", monospace;
-  color: rgb(249, 239, 236);
-}
-.sect1 .sect1_one .sect1_one_right .sect1_one_right_text .sect1_one_right_text_high .sect1_one_right_text_high_one {
-  width: 13vw;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.sect1 .sect1_one .sect1_one_right .sect1_one_right_text .sect1_one_right_text_high .sect1_one_right_text_high_one p {
-  font-size: 1.5rem;
-  color: rgb(206, 125, 99);
-  font-family: "Roboto Flex", monospace;
-  font-weight: 500;
-}
-.sect1 .sect1_one .sect1_one_right .sect1_one_right_text .sect1_one_right_text_high_two {
-  width: 54vw;
-}
-.sect1 .sect1_one .sect1_one_right .sect1_one_right_text .sect1_one_right_text_high_two p {
-  width: 50vw;
-  font-size: 4.875rem;
-  font-weight: 600;
-  font-family: "Roboto Flex", monospace;
-  color: rgb(249, 239, 236);
-}
-.sect1 .sect1_one .sect1_one_right .otsp {
-  height: 4vh;
-}
-.sect1 .sect1_one .sect1_one_right .sect1_one_right_text_high_tree {
-  width: 54vw;
-  height: 15vh;
-  display: flex;
+  justify-content: space-between;
   align-items: start;
-  font-size: 1.125rem;
-  font-weight: 400;
-  font-family: "Roboto Flex", monospace;
-  color: rgb(103, 102, 101);
 }
-.sect1 .sect1_one .sect1_one_right .sect1_one_right_text_high_tree p {
-  width: 45vw;
-}
-.sect1 .sect1_one .sect1_one_right .sect1_one_right_text_high_four {
-  display: flex;
-  flex-direction: row;
-  width: 55vw;
-  height: 7vh;
-  border-radius: 12px;
-  background-color: rgb(15, 15, 15);
-  white-space: nowrap;
-  overflow: hidden;
-}
-.sect1 .sect1_one .sect1_one_right .sect1_one_right_text_high_four ul {
-  display: flex;
-  flex-direction: row;
-  gap: 2vw;
-  align-items: center;
-  justify-content: center;
-}
-.sect1 .sect1_one .sect1_one_right .sect1_one_right_text_high_four ul li {
-  font-size: 1.25rem;
-  font-weight: 400;
-  font-family: "Roboto Mono", monospace;
-  color: rgb(103, 102, 101);
-  text-transform: uppercase;
-}
-.sect1 .sect1_one .sect1_one_right .sect1_one_right_text_high_four ul li::marker {
-  color: rgb(206, 125, 99);
-}
-.sect1 .sect1_one .sect1_two {
-  width: 29vw;
-  height: 58vh;
-  background-color: rgb(31, 31, 31);
-  border-radius: 14px;
-}
-.sect1 .sect1_one .sect1_two .sect1_two_text_wh {
-  width: 100vw;
-  height: 12vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.sect1 .sect1_one .sect1_two .sect1_two_text_wh .sect1_two_text {
-  width: 26vw;
+.sect1 .sect1_all .sect1_wh .sect1_left .sect1_title_box {
+  width: 53vw;
   display: flex;
   flex-direction: column;
-  gap: 0.5vw;
+  gap: 1vh;
 }
-.sect1 .sect1_one .sect1_two .sect1_two_text_wh .sect1_two_text .sect1_two_text_one {
-  font-size: 1.5rem;
-  font-weight: 500;
-  font-family: "Roboto Flex", monospace;
-  color: rgb(249, 239, 236);
-  text-transform: uppercase;
-}
-.sect1 .sect1_one .sect1_two .sect1_two_text_wh .sect1_two_text .sect1_two_text_two {
-  font-size: 1.25rem;
-  font-weight: 400;
-  font-family: "Roboto Flex", monospace;
-  color: rgb(179, 179, 178);
-}
-.sect1 .sect1_tree {
-  width: 100vw;
-  height: 19vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.sect1 .sect1_tree .sect1_tree_all {
-  width: 94vw;
-  height: 18vh;
-  border: 2px solid rgb(31, 31, 31);
-  border-radius: 20px;
+.sect1 .sect1_all .sect1_wh .sect1_left .sect1_title_box .sect1_title_high {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-}
-.sect1 .sect1_tree .sect1_tree_all .sect1_tree_all_wh {
-  width: 92vw;
-  height: 14vh;
-  border-radius: 14px;
-  display: flex;
-  flex-direction: row;
   gap: 1vw;
 }
-.sect1 .sect1_tree .sect1_tree_all .sect1_tree_all_wh .sect1_tree_one {
-  width: 15vw;
-  height: 13.8vh;
-  border-radius: 14px;
-  background-color: rgb(26, 26, 26);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.sect1 .sect1_tree .sect1_tree_all .sect1_tree_all_wh .sect1_tree_one .sect1_tree_one_text_1 {
-  font-size: 1.25rem;
-  font-weight: 500;
-  font-family: "Roboto Mono", monospace;
-  color: rgb(179, 179, 178);
-  text-transform: uppercase;
-}
-.sect1 .sect1_tree .sect1_tree_all .sect1_tree_all_wh .sect1_tree_one .sect1_tree_one_text_2 {
-  font-size: 3.75rem;
+.sect1 .sect1_all .sect1_wh .sect1_left .sect1_title_box .sect1_title_high p {
+  font-size: 4.625rem;
+  color: rgb(249, 239, 236);
   font-weight: 600;
   font-family: "Roboto Flex", monospace;
-  color: rgb(218, 158, 139);
+  line-height: 150%;
   text-transform: uppercase;
+  white-space: nowrap;
 }
-.sect1 .sect1_tree .sect1_tree_all .sect1_tree_all_wh .sect1_tree_two {
-  width: 15vw;
-  height: 13.8vh;
-  border-radius: 14px;
-  background-color: rgb(26, 26, 26);
+.sect1 .sect1_all .sect1_wh .sect1_left .sect1_title_box .sect1_title_high .sect1_project_btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5vw;
+  border-radius: 100px;
+  height: 5vh;
+  width: 13.5vw;
+  justify-content: center;
+  cursor: pointer;
+}
+.sect1 .sect1_all .sect1_wh .sect1_left .sect1_title_box .sect1_title_high .sect1_project_btn .sect1_btn_circle {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  flex-direction: row;
-  gap: 0.5vw;
 }
-.sect1 .sect1_tree .sect1_tree_all .sect1_tree_all_wh .sect1_tree_two .sect1_tree_one_text_1 {
-  font-size: 1.25rem;
+.sect1 .sect1_all .sect1_wh .sect1_left .sect1_title_box .sect1_title_high .sect1_project_btn p {
+  font-size: 1.125rem;
+  color: rgb(206, 125, 99);
   font-weight: 500;
   font-family: "Roboto Mono", monospace;
-  color: rgb(179, 179, 178);
   text-transform: uppercase;
+  white-space: nowrap;
+}
+.sect1 .sect1_all .sect1_wh .sect1_left .sect1_title_box .sect1_title_low p {
+  font-size: 4.625rem;
+  color: rgb(249, 239, 236);
+  font-weight: 600;
+  font-family: "Roboto Flex", monospace;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.sect1 .sect1_all .sect1_wh .sect1_left .sect1_desc {
+  width: 45vw;
+}
+.sect1 .sect1_all .sect1_wh .sect1_left .sect1_desc p {
+  font-size: 1.125rem;
+  color: rgb(179, 179, 178);
+  font-weight: 400;
+  font-family: "Roboto Flex", monospace;
+  line-height: 150%;
+}
+.sect1 .sect1_all .sect1_wh .sect1_right {
+  width: 29vw;
+  height: 53vh;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.sect1 .sect1_all .sect1_wh .sect1_right .sect1_visual_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sect1 .sect1_all .sect1_wh .sect1_right .sect1_right_wh {
+  position: relative;
+  width: 26vw;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.sect1 .sect1_all .sect1_wh .sect1_right .sect1_right_wh .sect1_badge {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  border-radius: 8px;
+  height: 4.2vh;
+  width: 10.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sect1 .sect1_all .sect1_wh .sect1_right .sect1_right_wh .sect1_badge p {
+  font-size: 1rem;
+  color: rgb(249, 239, 236);
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.sect1 .sect1_all .sect1_wh .sect1_right .sect1_right_wh .sect1_view_blog {
+  background-color: transparent;
+  height: 4.8vh;
+  width: 9.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4vw;
+  cursor: pointer;
+}
+.sect1 .sect1_all .sect1_wh .sect1_right .sect1_right_wh .sect1_view_blog .sect1_blog_circle {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sect1 .sect1_all .sect1_wh .sect1_right .sect1_right_wh .sect1_view_blog p {
+  font-size: 1rem;
+  color: rgb(249, 239, 236);
+  font-weight: 500;
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .sect2 {
   width: 100vw;
-  height: 80vh;
+  height: 55vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -335,7 +288,7 @@ header nav .navigat ul a .li7 {
 }
 .sect2 .sect2_all {
   width: 94vw;
-  height: 62vh;
+  height: 55vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -343,107 +296,26 @@ header nav .navigat ul a .li7 {
   border: 2px solid rgb(31, 31, 31);
   border-radius: 24px;
 }
-.sect2 .sect2_all .sect2_text_one {
-  width: 17vw;
-  background-color: rgb(26, 26, 26);
-  width: 92vw;
-  height: 15vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 16px;
-}
-.sect2 .sect2_all .sect2_text_one p {
-  width: 88vw;
-  font-size: 3rem;
-  color: rgb(249, 239, 236);
-  font-weight: 600;
-  font-family: "Roboto Flex", monospace;
-  text-transform: uppercase;
-}
-.sect2 .sect2_all .sect2_card {
-  width: 92vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.sect2 .sect2_all .sect2_card .sect2_card_all {
-  background-color: rgb(26, 26, 26);
-  width: 22vw;
-  height: 39vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 16px;
-  flex-direction: column;
-}
-.sect2 .sect2_all .sect2_card .sect2_card_all .sect2_card_wh {
-  width: 18vw;
-  height: 31vh;
-  display: grid;
-  grid-template-rows: 10vh 15vh;
-}
-.sect2 .sect2_all .sect2_card .sect2_card_all .sect2_card_wh .sect2_card_text_one {
-  font-size: 1.875rem;
-  color: rgb(249, 239, 236);
-  font-weight: 500;
-  font-family: "Roboto Flex", monospace;
-  text-transform: uppercase;
-  line-height: 150%;
-}
-.sect2 .sect2_all .sect2_card .sect2_card_all .sect2_card_wh .sect2_card_text_two {
-  font-size: 1.25rem;
-  color: rgb(179, 179, 178);
-  font-weight: 400;
-  font-family: "Roboto Flex", monospace;
-  line-height: 150%;
-}
-.sect2 .sect2_all .sect2_card .sect2_card_all .sect2_card_wh .sect2_card_block {
-  display: flex;
-  height: 7vh;
-  flex-direction: row;
-  align-items: center;
-  justify-content: start;
-  gap: 0.5vw;
-}
-.sect2 .sect2_all .sect2_card .sect2_card_all .sect2_card_wh .sect2_card_block p {
-  font-size: 1.25rem;
-  color: rgb(179, 179, 178);
-  font-weight: 400;
-  font-family: "Roboto Flex", monospace;
-  line-height: 150%;
-}
-
-.sect3 {
-  width: 100vw;
-  height: 105vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #0F0F0F;
-  flex-direction: column;
-}
-.sect3 .sect3_all {
-  width: 94vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  border: 2px solid rgb(31, 31, 31);
-  border-radius: 24px;
-}
-.sect3 .sect3_all .sect3_text {
-  width: 91vw;
-  height: 15vh;
+.sect2 .sect2_all .sect2_header {
+  width: 90vw;
+  height: 12vh;
   background-color: rgb(26, 26, 26);
   border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.sect3 .sect3_all .sect3_text p {
+.sect2 .sect2_all .sect2_header .sect2_header_wh {
   width: 85vw;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+}
+.sect2 .sect2_all .sect2_header .sect2_header_wh .sect2_header_text {
+  display: flex;
+  align-items: center;
+}
+.sect2 .sect2_all .sect2_header .sect2_header_wh .sect2_header_text p {
   font-size: 3rem;
   color: rgb(249, 239, 236);
   font-weight: 600;
@@ -451,92 +323,51 @@ header nav .navigat ul a .li7 {
   line-height: 100%;
   text-transform: uppercase;
 }
-.sect3 .sect3_all .sect3_card_all {
-  width: 94vw;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 2vh;
-}
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows {
+.sect2 .sect2_all .sect2_cards_all {
+  width: 90vw;
+  height: 34vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 91vw;
+  align-items: center;
 }
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows .sect3_card {
+.sect2 .sect2_all .sect2_cards_all .sect2_card {
+  width: 21.5vw;
+  height: 36vh;
   background-color: rgb(26, 26, 26);
-  width: 45vw;
-  height: 39vh;
+  border-radius: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  border-radius: 14px;
 }
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows .sect3_card .sect3_card_one_rows {
+.sect2 .sect2_all .sect2_cards_all .sect2_card .sect2_card_wh {
+  width: 17.5vw;
+  height: 25vh;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: start;
-  width: 35vw;
-  height: 11vh;
 }
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows .sect3_card .sect3_card_one_rows .sect3_card_text_one {
+.sect2 .sect2_all .sect2_cards_all .sect2_card .sect2_card_wh .sect2_icon_box {
+  height: 10vh;
+  border-radius: 10px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.5vw;
+  align-items: start;
+  justify-content: center;
 }
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows .sect3_card .sect3_card_one_rows .sect3_card_text_one p {
-  font-size: 1.875rem;
+.sect2 .sect2_all .sect2_cards_all .sect2_card .sect2_card_wh .sect2_card_title p {
+  font-size: 1.375rem;
   color: rgb(249, 239, 236);
   font-weight: 500;
   font-family: "Roboto Flex", monospace;
-  line-height: 150%;
   text-transform: uppercase;
 }
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows .sect3_card .sect3_card_one_rows .sect3_card_text_two {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.5vw;
-}
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows .sect3_card .sect3_card_one_rows .sect3_card_text_two p {
-  font-size: 1.25rem;
-  color: rgb(179, 179, 178);
-  font-weight: 500;
-  font-family: "Roboto Flex", monospace;
-  line-height: 150%;
-  text-transform: uppercase;
-}
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows .sect3_card .sect3_card_text_big {
-  width: 35vw;
-  height: 7vh;
-  display: flex;
-  align-items: start;
-}
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows .sect3_card .sect3_card_text_big p {
+.sect2 .sect2_all .sect2_cards_all .sect2_card .sect2_card_wh .sect2_card_desc p {
   font-size: 1.125rem;
   color: rgb(179, 179, 178);
   font-weight: 400;
   font-family: "Roboto Flex", monospace;
   line-height: 150%;
-}
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows .sect3_card .sect3_card_text_down {
-  width: 35vw;
-  display: flex;
-  align-items: center;
-  justify-content: end;
-}
-.sect3 .sect3_all .sect3_card_all .sect3_card_rows .sect3_card .sect3_card_text_down p {
-  font-size: 1.875rem;
-  color: rgb(249, 239, 236);
-  font-weight: 500;
-  font-family: "Roboto Flex", monospace;
-  line-height: 150%;
-  text-transform: uppercase;
 }
 
 .otst1 {
